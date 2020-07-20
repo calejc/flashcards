@@ -1,0 +1,32 @@
+
+@media only screen and (max-width:420px){
+  #returnMain, #submit, #skip{
+    font-size:3vw;
+    min-width:0;
+    min-height:0;
+    width:12vw;
+    height:6.5vh;
+    padding-bottom:2vh;
+    padding-top:0;
+    padding-right:0;
+    padding-left:0;
+  }
+  #skip{
+    top: 50vh;
+  }
+  #addSubtract, #timesDivide{
+    min-width:0;
+    min-height:0;
+  }
+  #card{
+    height:80vh;
+    margin-top:12vh;
+  }
+  #cardFront{
+    height:80vh;
+  }
+  #cardBack{
+    height:80vh;
+  }
+}
+

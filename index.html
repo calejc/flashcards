@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <base target="_top">
+    <!-- <?!= include('Stylesheet'); ?> -->
+    <!-- <?!= include('Responsive'); ?> -->
+    <!-- replace the below links with the two lines above to deploy as a Google app script -->
+    <link type= "text/css" href="Responsive.css" rel="stylesheet">
+    <link type= "text/css" href="Stylesheet.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="https://ssl.gstatic.com/docs/script/css/add-ons.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Cortney Math</title>
+  </head>
+  <body>
+    <div id="mainContainer">
+      <div id="card">
+        <div id="cardFront">
+          <div class="cardHeader">Integer Flashcards</div>
+          <div class="selectionOne">
+            Addition/Subtraction
+            <button id="addSubtract" value="addSubtract" type="button" name="button">Go! (+ -)</button>
+          </div>
+          <div class="selectionTwo">
+            Multiplication/Division
+            <button id="timesDivide" value="timesDivide" type="button" name="button">Go! (&times &divide)</button>
+          </div>
+        </div>
+        <div id = "cardBack">
+          <div class="cardHeader">Integer Flashcards</div>
+          <div id="scoreCounter">
+            0/0
+          </div>
+          <div id="operand1">
+            -50
+          </div>
+          <div id="operator">
+            +
+          </div>
+          <div id="operand2">
+            50
+          </div>
+          <div id="eq">
+            =
+          </div>
+          <input id="answer" type="text" name="answer" placeholder="0" autofocus>
+          <div id="answerDisplay" display="none">
+
+          </div>
+          <div id="submit">
+            <a disabled="true"><img src="https://drive.google.com/uc?export=download&id=1re2UdvjWzucuBqV9ioukaMQe2Gs17Tuy" alt=""></a>
+          </div>
+          <div id="returnMain">
+            <a><img src="https://drive.google.com/uc?export=download&id=17p4qW3huPwminIpTfjwlG0DZTqHa8V9u" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <?!= include('JavaScript'); ?> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="JavaScript.js" rel="scripts"></script>
+  </body>
+</html>
